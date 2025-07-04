@@ -1,5 +1,4 @@
-#ifndef VEC3_H
-#define VEC3_H
+#pragma once 
 
 #include <cmath>
 #include <iostream>
@@ -40,4 +39,3 @@ vec3 operator*(double t, const vec3 &v);
 vec3 operator*(const vec3 &v, double t);
 vec3 operator/(vec3 v, double t);
 
-#endif // VEC3_H
