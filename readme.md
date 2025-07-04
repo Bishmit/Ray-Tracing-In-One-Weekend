@@ -1,14 +1,16 @@
-# 📚 Theory Notes Backup
+# 📚 Ray Tracing Theory Notes Backup
 
-My handwritten notes scans backup.  
-All notes are organized day-wise. Click below to view:
+This repository contains scanned handwritten theory notes for ray tracing concepts, organized day-wise for easy reference.
+
+---
+
+## 📅 Available Notes
+
+- [Day 1: Deriving parametric and circle equations for circle/sphere intersections](Notes/Day1/)  
+
+- [Day 2: Understanding how to cast rays from a camera to render a gradient sky background](Notes/Day2/)
 
 ---
 
-## 📅 Available Days:
 
-- [Day 1 Notes](Notes/Day1/)
-- [Day 2 Notes](Notes/Day2/)
-
----
 
