@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/bishmit/Documents/Ray_Tracing_In_One_Week/build",
+  "command": "/usr/bin/g++  -I/home/bishmit/Documents/Ray_Tracing_In_One_Week/include -g -std=gnu++17 -o CMakeFiles/Ray_Tracing_In_One_Week.dir/main.cpp.o -c /home/bishmit/Documents/Ray_Tracing_In_One_Week/main.cpp",
+  "file": "/home/bishmit/Documents/Ray_Tracing_In_One_Week/main.cpp",
+  "output": "CMakeFiles/Ray_Tracing_In_One_Week.dir/main.cpp.o"
+},
+{
+  "directory": "/home/bishmit/Documents/Ray_Tracing_In_One_Week/build",
+  "command": "/usr/bin/g++  -I/home/bishmit/Documents/Ray_Tracing_In_One_Week/include -g -std=gnu++17 -o CMakeFiles/Ray_Tracing_In_One_Week.dir/src/Vec3.cpp.o -c /home/bishmit/Documents/Ray_Tracing_In_One_Week/src/Vec3.cpp",
+  "file": "/home/bishmit/Documents/Ray_Tracing_In_One_Week/src/Vec3.cpp",
+  "output": "CMakeFiles/Ray_Tracing_In_One_Week.dir/src/Vec3.cpp.o"
+},
+{
+  "directory": "/home/bishmit/Documents/Ray_Tracing_In_One_Week/build",
+  "command": "/usr/bin/g++  -I/home/bishmit/Documents/Ray_Tracing_In_One_Week/include -g -std=gnu++17 -o CMakeFiles/Ray_Tracing_In_One_Week.dir/src/Camera.cpp.o -c /home/bishmit/Documents/Ray_Tracing_In_One_Week/src/Camera.cpp",
+  "file": "/home/bishmit/Documents/Ray_Tracing_In_One_Week/src/Camera.cpp",
+  "output": "CMakeFiles/Ray_Tracing_In_One_Week.dir/src/Camera.cpp.o"
+},
+{
+  "directory": "/home/bishmit/Documents/Ray_Tracing_In_One_Week/build",
+  "command": "/usr/bin/g++  -I/home/bishmit/Documents/Ray_Tracing_In_One_Week/include -g -std=gnu++17 -o CMakeFiles/Ray_Tracing_In_One_Week.dir/src/Ray.cpp.o -c /home/bishmit/Documents/Ray_Tracing_In_One_Week/src/Ray.cpp",
+  "file": "/home/bishmit/Documents/Ray_Tracing_In_One_Week/src/Ray.cpp",
+  "output": "CMakeFiles/Ray_Tracing_In_One_Week.dir/src/Ray.cpp.o"
+}
+]

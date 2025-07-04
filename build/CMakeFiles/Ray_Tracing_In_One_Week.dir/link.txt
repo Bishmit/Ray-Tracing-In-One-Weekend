@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Ray_Tracing_In_One_Week.dir/main.cpp.o CMakeFiles/Ray_Tracing_In_One_Week.dir/src/Vec3.cpp.o CMakeFiles/Ray_Tracing_In_One_Week.dir/src/Camera.cpp.o CMakeFiles/Ray_Tracing_In_One_Week.dir/src/Ray.cpp.o -o Ray_Tracing_In_One_Week 

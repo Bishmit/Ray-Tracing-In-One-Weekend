@@ -1,0 +1,3 @@
+/home/bishmit/Documents/Ray_Tracing_In_One_Week/build/CMakeFiles/Ray_Tracing_In_One_Week.dir
+/home/bishmit/Documents/Ray_Tracing_In_One_Week/build/CMakeFiles/edit_cache.dir
+/home/bishmit/Documents/Ray_Tracing_In_One_Week/build/CMakeFiles/rebuild_cache.dir
