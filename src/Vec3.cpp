@@ -43,6 +43,9 @@ vec3 vec3::Normalize() const {
     return *this / len;
 }
 
+double vec3::Dot(const vec3& v) const {
+    return (e[0] * v.e[0]) + (e[1] * v.e[1]) + (e[2] * v.e[2]);
+}
 // Operators outside class
 vec3 operator+(const vec3 &u, const vec3 &v) {
     return vec3(u.e[0] + v.e[0], u.e[1] + v.e[1], u.e[2] + v.e[2]);

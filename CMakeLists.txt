@@ -12,5 +12,6 @@ add_executable(${PROJECT_NAME}
     src/Vec3.cpp
     src/Camera.cpp
     src/Ray.cpp
+    src/Sphere.cpp
 )
 

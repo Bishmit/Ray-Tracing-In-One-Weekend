@@ -10,6 +10,8 @@ This repository contains scanned handwritten theory notes for ray tracing concep
 
 - [Day 2: Understanding how to cast rays from a camera to render a gradient sky background](Notes/Day2/)
 
+- [Day 3: Understanding addding a Sphere, it's Intersection with ray and shading sphere with surface normal](Notes/Day3/)
+
 ---
 
 

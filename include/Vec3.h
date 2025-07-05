@@ -24,6 +24,7 @@ public:
 
     double length() const;
     double length_squared() const;
+    double Dot(const vec3& v) const;   
     vec3 Normalize() const;
 };
 
