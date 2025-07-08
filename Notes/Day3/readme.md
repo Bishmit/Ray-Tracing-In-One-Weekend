@@ -1,4 +1,4 @@
-# Day 2 Notes
+# Day 3 Notes
 
 ![Page 1](1.jpg)
 ![Page 2](2.jpg)

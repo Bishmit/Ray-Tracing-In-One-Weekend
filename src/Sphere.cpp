@@ -1,8 +1,8 @@
 #include "../include/Sphere.h"
 
-Sphere::Sphere(const vec3& c, float r): center(c), radius(r) {}
+Sphere::Sphere(const point3& c, float r): center(c), radius(std::fmax(0, r)) {}  
 
-bool Sphere::hit(const Ray& r, float tMin, float tMax, float& t) const{
+bool Sphere::hit(const Ray& r, float tMin, float tMax, hitRecord& record) const{
     vec3 originCenter = r.origin - center; 
     vec3 direction = r.direction; 
     float a = direction.Dot(direction); 
@@ -22,6 +22,10 @@ bool Sphere::hit(const Ray& r, float tMin, float tMax, float& t) const{
         if(root < tMin || root > tMax) return false; 
     }
 
-    t = root; 
+    record.t = root; 
+    record.p = r.at(record.t); 
+    record.normal = (record.p - center) / radius; 
+    auto outwardNormal = record.normal; 
+    record.setFaceNormal(r, outwardNormal);
     return true;  
 }

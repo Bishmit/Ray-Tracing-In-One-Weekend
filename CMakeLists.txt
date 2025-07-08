@@ -13,5 +13,6 @@ add_executable(${PROJECT_NAME}
     src/Camera.cpp
     src/Ray.cpp
     src/Sphere.cpp
+    src/HittableList.cpp
 )
 
